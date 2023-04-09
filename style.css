@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px
+}
+
+main {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.info {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #fff;
+    padding: 40px;
+    width: 614px;
+}
+
+    .info h1 {
+        color: hsl(179, 62%, 43%);
+        margin-bottom: 25px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .info h2 {
+        color: hsl(71, 73%, 54%);
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .info p {
+        color: hsl(218, 22%, 67%);
+        margin-bottom: 10px;
+    }
+
+section {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.one {
+    border-bottom-left-radius: 8px;
+    background-color: hsl(179, 62%, 43%);
+    padding: 38px;
+    padding-right: 59px;
+}
+
+    .one h2 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .one p {
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .one span {
+        font-size: 30px;
+        font-weight: 700;
+        margin-right: 5px;
+    }
+
+    .one button {
+        cursor: pointer;
+        margin-top: 15px;
+        text-align: center;
+        font-size: 17px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 95px;
+        padding-right: 95px;
+        border-radius: 8px;
+        color: #fff;
+        border: none;
+        background-color: hsl(71, 73%, 54%);
+    }
+
+.two {
+    border-bottom-right-radius: 8px;
+    padding: 38px;
+    background-color: #4ABEBD;
+    padding-right: 100px;
+}
+
+    .two h2 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .two p {
+        color: hsl(204, 43%, 93%);
+    }
+
+/* Responsive tablet */
+@media screen and (max-width: 732px) {
+    .info {
+        width: 268px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one {
+        border-radius: 1px;
+    }
+
+    .two {
+        border-bottom-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+  }
+
+  /*Resposive Mobile L*/
